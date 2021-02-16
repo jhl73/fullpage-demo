@@ -8,6 +8,11 @@ h1 {
   background-image: url("../img/img01.jpg");
   background-size: cover;
 }
+.s1 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 4rem;
+}
 
 .s2 {
   background-image: url("../img/img03.jpg");
@@ -26,7 +31,7 @@ h1 {
 .s3 h1 {
   text-align: left;
   margin-left: 2em;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 span {

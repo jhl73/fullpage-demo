@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div id="fullPage">
+        <div class="section s1">
+            
+            <div class="slide">
+                <h1>Primera Portada</h1>
+            </div>
+            <div class="slide">
+                <h1>Segunda Portada</h1>
+            </div>
+            <div class="slide">
+                <h1>Tercera Portada</h1>
+            </div>
+
+
+        </div>
+        <div class="section s2">
+            <h1>Segunda Portada</h1>
+        </div>
+        <div class="section s3">
+            <h1>Tercera Portada</h1>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+    
+    <script>
+        new fullpage('#fullPage', {
+            autoScroolling: true,
+            navigation: true,
+            anchors: ['section1', 'section2', 'section3'],
+            navigationTooltips: ['Home', 'About us', 'Contact'],
+            showActiveTooltip: true,
+            scrollingSpeed: 1000,
+            controlArrows: false,
+            slidesNavigation: true
+
+        })
+    </script>
+
+</body>
+</html>
